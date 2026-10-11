@@ -20,12 +20,12 @@ from pathlib import Path
 import cv2
 import yaml
 
-from rover_tracker.data.trial_logger import TrialLogger, TrialSummary
-from rover_tracker.events.event_detector import EventDetector
+from rover_tracker.trial_logger import TrialLogger, TrialSummary
+from rover_tracker.event_detector import EventDetector
 from rover_tracker.perception.homography import HomographyTransform
 from rover_tracker.perception.tracker import RoverTracker
-from rover_tracker.sensor.video_source import VideoSource
-from rover_tracker.state.rover_state import StateHistory
+from rover_tracker.video_source import VideoSource
+from rover_tracker.rover_state import StateHistory
 
 
 def load_config(path: str) -> dict:

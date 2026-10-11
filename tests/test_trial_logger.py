@@ -6,9 +6,9 @@ from pathlib import Path
 
 import pytest
 
-from rover_tracker.data.trial_logger import TrialLogger
-from rover_tracker.events.event_detector import DetectedEvent
-from rover_tracker.state.rover_state import EventFlag, RoverState
+from rover_tracker.trial_logger import TrialLogger
+from rover_tracker.event_detector import DetectedEvent
+from rover_tracker.rover_state import EventFlag, RoverState
 
 
 def _state(i, x=600.0, y=1200.0):

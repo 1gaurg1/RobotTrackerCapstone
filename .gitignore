@@ -37,3 +37,6 @@ data_/
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Test images
+tests/test_phone_images/

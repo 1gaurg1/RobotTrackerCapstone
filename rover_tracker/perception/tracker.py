@@ -10,7 +10,7 @@ import numpy as np
 
 _PERCEPTION_DIR = os.path.dirname(os.path.abspath(__file__))
 
-from ..state.rover_state import EventFlag, RoverState
+from ..rover_state import EventFlag, RoverState
 from .homography import HomographyTransform
 
 

@@ -4,7 +4,7 @@ import math
 
 import pytest
 
-from rover_tracker.state.rover_state import EventFlag, RoverState, StateHistory
+from rover_tracker.rover_state import EventFlag, RoverState, StateHistory
 
 
 def make_state(i, x=100.0, y=100.0, vel=50.0):

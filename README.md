@@ -429,18 +429,14 @@ robottracker/
 │   │   ├── homography.py   ← Pixel ↔ world coordinate transform
 │   │   ├── background1new.jpg  ← Reference background for initial detection
 │   │   └── background_mat.jpg  ← Maze boundary mask for initial detection
-│   ├── events/
-│   │   └── event_detector.py   ← Collision, stop, intervention detection
-│   ├── state/
-│   │   └── rover_state.py  ← RoverState dataclass; StateHistory with
+│   ├── event_detector.py   ← Collision, stop, intervention detection
+│   ├── rover_state.py      ← RoverState dataclass; StateHistory with
 │   │                          noise-filtered total_distance_mm()
-│   ├── data/
-│   │   └── trial_logger.py ← CSV/JSON logging, recording.lock management;
+│   ├── trial_logger.py     ← CSV/JSON logging, recording.lock management;
 │   │                          distance computed with 1-second chunking
-│   ├── visualization/
-│   │   └── dashboard.py    ← Streamlit dashboard; stale-lock detection;
+│   ├── dashboard.py        ← Streamlit dashboard; stale-lock detection;
 │   │                          2-second chunking + dead-band distance filtering
-│   └── sensor/             ← Camera / video file input abstraction
+│   └── video_source.py     ← Camera / video file input abstraction
 │
 ├── tests/                  ← pytest unit tests (24 tests, all passing)
 │   ├── test_event_detector.py

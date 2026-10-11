@@ -5,7 +5,7 @@ from __future__ import annotations
 import numpy as np
 import pytest
 
-from rover_tracker.state.rover_state import EventFlag, RoverState, StateHistory
+from rover_tracker.rover_state import EventFlag, RoverState, StateHistory
 
 
 MAZE_W_MM = 1219.2

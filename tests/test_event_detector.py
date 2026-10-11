@@ -2,8 +2,8 @@
 
 import pytest
 
-from rover_tracker.events.event_detector import DetectedEvent, EventDetector
-from rover_tracker.state.rover_state import EventFlag, RoverState, StateHistory
+from rover_tracker.event_detector import DetectedEvent, EventDetector
+from rover_tracker.rover_state import EventFlag, RoverState, StateHistory
 
 
 MAZE_X_MAX = 2438.4   # length (8ft), x-axis

@@ -10,8 +10,8 @@ from pathlib import Path
 
 import yaml
 
-from ..events.event_detector import DetectedEvent
-from ..state.rover_state import RoverState
+from .event_detector import DetectedEvent
+from .rover_state import RoverState
 
 
 @dataclass

@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass, field
 
-from ..state.rover_state import EventFlag, RoverState, StateHistory
+from .rover_state import EventFlag, RoverState, StateHistory
 
 
 @dataclass
